@@ -10,7 +10,8 @@ interface IStyles {
 
 const getStyles = (): Partial<IStyles> => ({
   root: {
-    background: "red"
+    background: "red",
+    height: 300
   },
   subComponentStyles: {
     choiceGroup: {
